@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  background-color: #fb7b4c;
+}
+
+.calculator {
+  background-color: #282c34;
+  height: 100vh;
+  width: 100vh;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.calc-head {
+  height: 20vh;
+  background-color: #042909;
+  color: white;
+}
+
+.output{
+  padding: 2vh;
+  height: 16vh;
+  width: 96vh;
+  text-align: end;
+}
+
+.first-box{
+  height: 6vh;
+  vertical-align: middle;
+}
+
+.second-box{
+  height: 10vh;
+  vertical-align: middle;
+}
+
+.previous-output{
+  height: 3vh;
+    /* background-color: #3e3eef; */
+    font-size: calc(10px + 2vmin);
+    color: #98a59a;
+  }
+.current-output{
+  height: 6vh;
+    /* background-color: #c01da0; */
+    vertical-align: middle;
+    font-size: calc(50px + 2vmin);
+  }
+
+.calc-body {
+  height: 80vh;
+  background-color: #edf0f5;
+  color: rgb(6, 6, 6);
+}
+
+.row{
+  height: 16vh;
+}
+
